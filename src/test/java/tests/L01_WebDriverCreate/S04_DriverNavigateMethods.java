@@ -18,6 +18,8 @@ public class S04_DriverNavigateMethods {
         driver.navigate().back();    //back
         Thread.sleep(1000);
 
+        driver.navigate().refresh();     //page refresh
+        Thread.sleep(2000);
 
         driver.navigate().forward();     //forward
         Thread.sleep(1000);
