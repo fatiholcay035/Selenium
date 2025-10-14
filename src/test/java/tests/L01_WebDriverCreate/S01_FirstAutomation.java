@@ -3,7 +3,7 @@ package tests.L01_WebDriverCreate;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class S01_FirstOtomation {
+public class S01_FirstAutomation {
 
     public static void main(String[] args) throws InterruptedException {
 
