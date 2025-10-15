@@ -1,6 +1,6 @@
 package tests.L02_DifferentWebDriver;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+import io.github.bonigarcia.wdm.WebDriverManager;  // Boni Garcia Web Driver
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
@@ -23,7 +23,6 @@ public class S01_DifferentWebDriver {
 
         driver.manage().window().setSize(new Dimension(500,500));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-
 
 
 
