@@ -27,7 +27,6 @@ public class S02_SearchTest {
         //  By Name → Projects link
         WebElement projectsLink = driver.findElement(By.name("projects"));
         projectsLink.click();
-        Thread.sleep(1000);
         System.out.println("Projects link text: " + projectsLink.getText());
         driver.navigate().back();
         Thread.sleep(1000);
