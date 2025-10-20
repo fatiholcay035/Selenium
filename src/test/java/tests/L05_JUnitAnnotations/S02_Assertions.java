@@ -45,5 +45,26 @@ public class S02_Assertions {
         assertNotEquals(url1,url2);
     }
 
+    @Test
+    public void test07(){
+        assertTrue(!url1.contains(url2));
+    }
+
+    @Test
+    public void test08(){
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
 
 }
