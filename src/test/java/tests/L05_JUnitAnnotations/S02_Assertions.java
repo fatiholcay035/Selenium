@@ -53,8 +53,19 @@ public class S02_Assertions {
     @Test
     public void test08(){
 
-
     }
+    /*
+
+    Assertion Method	Purpose
+
+    assertEquals	    Checks if two values are equal
+    assertTrue	        Expects the condition to be true
+    assertFalse	        Expects the condition to be false
+    assertNotNull	    Ensures the object is not null
+    assertNotEquals	    Confirms two values are not equal
+    fail	            Forces the test to fail intentionally
+
+    */
 
 
 
