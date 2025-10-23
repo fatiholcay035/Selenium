@@ -32,7 +32,7 @@ public class S01_UnitTest {
          }else System.out.println("Web site test FAILED");
 
 
-         ReusableMethods.bekle(1);
+         ReusableMethods.wait(1);
          driver.quit();
 
      }
@@ -51,7 +51,7 @@ public class S01_UnitTest {
              System.out.println("Url test PASSED");
          } else System.out.println("Url test FAILED");
 
-         ReusableMethods.bekle(2);
+         ReusableMethods.wait(2);
          driver.quit();
      }
 }

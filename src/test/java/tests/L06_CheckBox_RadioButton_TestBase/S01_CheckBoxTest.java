@@ -5,11 +5,14 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import utilities.ReusableMethods;
 
+import javax.swing.*;
 import java.time.Duration;
 
 public class S01_CheckBoxTest {
@@ -32,10 +35,15 @@ public class S01_CheckBoxTest {
 
         driver.get("https://www.testotomasyonu.com/form ");
 
+        Actions actions=new Actions(driver);
+        ReusableMethods.wait(2);
+        actions.sendKeys(Keys.PAGE_DOWN).perform(); // Scrool Page Down
+
+
         WebElement sirtAgrisiCheckbox = driver.findElement(By.id("gridCheck5"));
         WebElement carpintiCheckbox = driver.findElement(By.id("gridCheck4"));
 
-        ReusableMethods.bekle(3);
+        ReusableMethods.wait(3);
 
         sirtAgrisiCheckbox.click();
         carpintiCheckbox.click();

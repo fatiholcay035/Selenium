@@ -49,7 +49,7 @@ public class S01_JUnitAnnotations {
             System.out.println("Web site test PASSED");
         }else System.out.println("Web site test FAILED");
 
-        ReusableMethods.bekle(1);
+        ReusableMethods.wait(1);
 
         teardown();
 

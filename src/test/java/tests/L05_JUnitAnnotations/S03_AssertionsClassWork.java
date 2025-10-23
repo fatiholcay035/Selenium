@@ -36,7 +36,7 @@ public class S03_AssertionsClassWork {
 
         String expectedUrl = "https://www.fatiholcay.com/";
         String actualUrl= driver.getCurrentUrl();
-        ReusableMethods.bekle(5);
+        ReusableMethods.wait(5);
 
         assertEquals(expectedUrl,actualUrl);
 
