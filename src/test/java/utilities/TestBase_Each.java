@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class TestBaseEach {
+public class TestBase_Each {
 
     protected  WebDriver driver;
 
