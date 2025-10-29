@@ -51,6 +51,11 @@ public class S02_DropdownMenu extends TestBase_Each {
 
         Assertions.assertTrue(monthDdmTextList.contains("Ocak"));
 
+        int expectedMenuSize =13;
+        int actualMenuSize = selectMonth.getOptions().size();
+
+        Assertions.assertEquals(expectedMenuSize,actualMenuSize);
+
 
 
 
