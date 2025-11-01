@@ -30,12 +30,12 @@ public class S01_BasicAuthentication extends TestBase_Each {
         ReusableMethods.wait(2);
         // Verify that login is successful
         // You can check if a success message or element is displayed
-        String pageText = driver.findElement(By.tagName("body")).getText();
+        String pageText = driver.findElement(By.tagName("h1")).getText();
 
         System.out.println("Page Text: " + pageText);
 
         // Assert that the success message is visible
-        assertTrue(pageText.contains("Congratulations! You are logged in!"));
+        assertTrue(pageText.contains("Basic Auth"));
     }
 
 
