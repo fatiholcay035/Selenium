@@ -35,7 +35,7 @@ public class S01_BasicAuthentication extends TestBase_Each {
         System.out.println("Page Text: " + pageText);
 
         // Assert that the success message is visible
-        assertTrue(pageText.contains("Basic Auth"));
+        assertTrue(pageText.contains("Basic Auth "));
     }
 
 
